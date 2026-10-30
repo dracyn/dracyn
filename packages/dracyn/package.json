@@ -1,0 +1,37 @@
+{
+	"$schema": "https://www.schemastore.org/package",
+	"name": "dracyn",
+	"version": "0.0.0",
+	"description": "Fast full-stack web framework",
+	"keywords": [
+		"fast",
+		"framework",
+		"full",
+		"full-stack",
+		"stack",
+		"web",
+		"web framework"
+	],
+	"homepage": "https://github.com/dracyn/dracyn/tree/master/packages/dracyn#readme",
+	"bugs": {
+		"url": "https://github.com/dracyn/dracyn/issues"
+	},
+	"license": "MIT",
+	"author": "Hunar Roop Kahlon <hunarroopcodes@gmail.com>",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dracyn/dracyn.git",
+		"directory": "packages/dracyn"
+	},
+	"files": [
+		"./LICENSE",
+		"./README.md",
+		"./package.json"
+	],
+	"type": "module",
+	"sideEffects": false,
+	"exports": {
+		"./LICENSE": "./LICENSE",
+		"./package.json": "./package.json"
+	}
+}
