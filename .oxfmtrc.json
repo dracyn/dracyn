@@ -1,5 +1,21 @@
 {
 	"$schema": "./node_modules/oxfmt/configuration_schema.json",
+	"overrides": [
+		{
+			"files": ["./packages/dracyn/**/*"],
+			"options": {
+				"jsdoc": {
+					"bracketSpacing": true,
+					"commentLineStrategy": "multiline",
+					"descriptionWithDot": true,
+					"preferCodeFences": true,
+					"separateReturnsFromParam": true,
+					"separateTagGroups": true
+				},
+				"sortImports": true
+			}
+		}
+	],
 	"printWidth": 80,
 	"sortPackageJson": {
 		"sortScripts": true
